@@ -49,7 +49,7 @@ class ContactsList extends Component {
       </form>
       <ul>
         {filteredContacts.map((contact)=> {
-          return <Contact contact={contact} key={contact.id} />
+          return <Contact contact={contact} item="Hello" key={contact.id} />
         })}  
       </ul>
       
